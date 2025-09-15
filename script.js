@@ -29,11 +29,5 @@ function ordenaPalavra(p1, p2) {
     return ordenadas.slice(0, 10);
 }
 
-    function ordenaPalavra(p1, p2) {
-        return frequencias[p2] - frequencias[p1];
-    }
-
-    let ordenadas = Object.keys(frequencias).sort(ordenaPalavra);
-    return ordenadas.slice(0, 10);
-}
+   
 } 
